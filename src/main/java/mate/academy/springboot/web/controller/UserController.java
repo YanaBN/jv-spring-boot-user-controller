@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping
     public List<User> getAll() {
-        return List.of(new User(1L, "bob@i.ua"), new User(2L, "alice@.ua"));
+        return List.of(new User(1L, "bob@i.ua"), new User(2L, "alice@i.ua"));
     }
 
     @PostMapping
